@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--linkbootstrap-->
+    <link rel="stylesheet" href="../bootstrap_local/css/bootstrap.css">
+    <!--linkCSS-->
+    <link rel="stylesheet" href="../style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <Header class="principio">
+        <a href="../index.html"><img class="logo" src="../products/images/logo.png" alt="logo selah"></a>
+        <div class="sela"> <h1 class="selah">Selah <span class="deco">Home Deco</span></h1> </div>
+    </Header>
+   
+    <nav class="navegable">
+        <ul class="navegables">
+            <li class="menu"> <a href="../index.html">Inicio</a></li>
+            <li class="menu"> <a href="nosotros.html">Nosotros</a></li>
+            <li class="menu"> <a href="productos.html">Productos</a>
+                <ul class="sub">
+                    <li><a href="">Toilet</a></li>
+                    <li><a href="">Laundry</a></li>
+                    <li><a href="">Cocina</a></li>
+                    <li><a href="">Dormitorio</a></li>
+                </ul>
+            </li>
+            <li class="menu"> <a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+            <li class="menu"> <a href="contacto.html">contacto</a></li>
+        </ul>
+    </nav>
+
+    <section class="contacto">
+        <div class="formulario">
+        <form class="con" action="">
+            <!--defino el tipo de dato que voy a ingresar-->
+            <label class="contacto__formulario" for="nombre">Nombre:</label>
+            <input type="text" name="nombre"> 
+
+            <label class="contacto__formulario" for="apelldo">Apellido:</label>
+            <input type="text" name="apellido"> 
+
+            <label class="contacto__formulario" for="email">E-mail</E-mail></label>
+            <input type="email" name="email"> 
+            
+            <label class="contacto__formulario" for="telefono">Teléfono</label>
+            <input type="telefono" name="telefono"> 
+
+            <label class="contacto__formulario" for="Motivo del mensaje">Motivo del mensaje</label>
+            <select name="motivo del mensaje">
+                <option value="Mayorista">Mayorista</option>
+                <option value="Devolucion o problemas con un producto">Problemas con un producto</option>
+                <option value="Trabajo">Trabajo</option>
+                <option value="Otro">Otro</option>
+            </select>
+            
+                
+                
+            
+            <textarea name="comentarios" id="" cols="60" rows="20" placeholder="Algún comentario que nos quieras dejar"></textarea>
+            
+
+            <div>¿Deseas recibir Newsletter?</div>
+            <input type="checkbox" name="acepta" value="1">
+            
+
+            <input class="contacto__boton" type="submit" value="Enviar">
+            <input class="contacto__boton" type="reset" value="Limpiar formulario">
+            
+
+            
+
+
+
+        </div>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="final">
+            <ul class="piePagina">
+                <li><a class="piePagina__link"  href="Newsletter">Newsletter</a>
+                </li>
+                
+                <li><img class="fin" src="../products/redes/instagram.png" alt="">
+                    <a class="piePagina__link" href="Redes sociales">Redes sociales</a></li>
+    
+                
+                <li> <img class="fin" src="../products/redes/whatsapp.png" alt="">
+                    <a class="piePagina__link" href="Contactos">Contactos</a></li>
+            </ul>
+        </div>
+    </footer>
+         <!--JAVA SCRIPT-->
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
