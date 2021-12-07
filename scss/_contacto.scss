@@ -1,0 +1,48 @@
+/*---Contacto---*/
+.contacto {
+    font-family: 'Tenor Sans', sans-serif;
+    background-color: #FFE3C7;
+    width: 50%;
+    padding: 26px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 1200px;
+
+}
+.con {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.contacto{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    letter-spacing: 2px;
+    
+
+}
+.contacto__boton{
+width: 250px;
+height: 60px;
+font-family: "proximaNova";
+background-color: white;
+color: rgb(104, 91, 91);
+letter-spacing: 2px;
+box-shadow: inset 0 0 0 0 #df9881;
+transition: ease-out 0.3s;
+font-size: 1.5rem;
+outline: none;
+margin: 10px;
+}
+.contacto__boton:hover{
+    box-shadow: inset 250px 0 0 0 #f3b6a1;
+}
+
+.contacto__formulario{
+    margin: 16px 10px 16px 10px;
+}

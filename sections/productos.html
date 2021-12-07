@@ -7,34 +7,60 @@
     <!--linkbootstrap-->
     <link rel="stylesheet" href="../bootstrap_local/css/bootstrap.css">
     <!--linkCSS-->
-    <link rel="stylesheet" href="../style.css">
-    <title>Productos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <!--titulo-->
+    <title>Sección de productos SelahDeco</title>
+    <!--keywords-->
+    <meta name="keywords" content="deco,selah,decoración,house,style,estilo"> 
+    <!--descripción-->
+    <meta name="descripción" content="Te invitamos a mirar todos nuestros productos para decorar tu hogar. 
+    Textiles, muebles,cristaleria, y mucho más">
 </head>
 
 
 <body class="grid-areas">
+
+  <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
+    <div class="navegable container-fluid">
+      <a class="navbar-brand" href="../index.html"><img class="nav_logo" src="../products/images/Logos-finales-24.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="preguntas_frecuentes.html">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+              <li><a class="dropdown-item" href="#">...</a></li>
+              <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     
     <Header class="principio prin">
-        <a href="../index.html"><img class="logo" src="../products/images/logo.png" alt="logo selah"></a>
+        
         <div class="sela"> <h1 class="selah">Selah <span class="deco">Home Deco</span></h1> </div>
     </Header>
     
-    <nav class="nave navegable">
-        <ul class="navegables">
-            <li class="menu"> <a href="../index.html">Inicio</a></li>
-            <li class="menu"> <a href="nosotros.html">Nosotros</a></li>
-            <li class="menu"> <a href="productos.html">Productos</a>
-                <ul class="sub">
-                    <li><a href="">Toilet</a></li>
-                    <li><a href="">Laundry</a></li>
-                    <li><a href="">Cocina</a></li>
-                    <li><a href="">Dormitorio</a></li>
-                </ul>
-            </li>
-            <li class="menu"> <a href="preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-            <li class="menu"> <a href="contacto.html">contacto</a></li>
-        </ul>
-    </nav>
+    
 
     
          <!--Sección de busqueda-->

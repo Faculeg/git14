@@ -7,74 +7,104 @@
     <!--linkbootstrap-->
     <link rel="stylesheet" href="bootstrap_local/css/bootstrap.css">
     <!--linkCSS-->
-    <link rel="stylesheet" href="style.css">
-    <title>Inicio</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <!--titulo-->
+    <title>Sección principal y presentación del sitio SelahDeco</title>
+    <!--keywords-->
+    <meta name="keywords" content="deco,selah,decoración,house,style,estilo"> 
+    <!--descripción-->
+    <meta name="descripción" content="En este sitio web encontraras diversos productos para la decoración de tu hogar. 
+    Productos de cocina, baño, bedroom, y mucho más">
     
 </head>
 <body>
 
-    <Header class="principio">
-        <a href="index.html"><img class="logo" src="products/images/logo.png" alt="logo selah"></a>
-       <div class="sela"> <h1 class="selah">Selah <span class="deco">Home Deco</span></h1> </div>
-    </Header>
-
-    <nav class="navegable">
-        <ul class="navegables">
-            <li class="menu"> <a href="index.html">Inicio</a></li>
-            <li class="menu"> <a href="sections/nosotros.html">Nosotros</a></li>
-            <li class="menu"> <a href="sections/productos.html">Productos</a>
-                <ul class="sub">
-                    <li><a href="">Toilet</a></li>
-                    <li><a href="">Laundry</a></li>
-                    <li><a href="">Cocina</a></li>
-                    <li><a href="">Dormitorio</a></li>
-                </ul>
-            </li>
-            <li class="menu"> <a href="sections/preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-            <li class="menu"> <a href="sections/contacto.html">contacto</a></li>
+   <nav class="navbar fixed-top navbar-expand-xl navbar-light bg-light">
+    <div class="navegable container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="nav_logo" src="products/images/Logos-finales-24.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarWithDropdown" aria-controls="navbarWithDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse nav_list navbar-collapse show" id="navbarWithDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sections/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sections/preguntas_frecuentes.html">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Productos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="sections/productos.html">Productos</a></li>
+              <li><a class="dropdown-item" href="#">...</a></li>
+              <li><a class="dropdown-item" href="#">...</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sections/contacto.html">Contacto</a>
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+  </nav>
+
+  <Header class="principio">
+      
+    <div class="sela"> 
+      <h1 class="selah">Selah <span class="deco">Home Deco</span></h1> 
+    </div>
+    
+  </Header>
+   
+
+ 
     
  <!--seccíon de carrousel-->
  <section class="carrousel">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="products/coleccion_verano/inicio.png" class="d-block w-100 imgCarrou" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Nueva Colección </h5>
-              <p>Nuevos productos en stock!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="products/coleccion_verano/CuotasSinInteres.png" class="d-block w-100 imgCarrou" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-          <div class="carousel-item filler">
-            <img src="products/coleccion_verano/20off.png" class="d-block w-100 imgCarrou" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5></h5>
-              <p></p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class src="products/coleccion_verano/inicio2.png" class="d-block w-100 imgCarrousel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Nueva Colección </h2>
+            <p>Nuevos productos en stock!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="products/coleccion_verano/CuotasSinInteres.png" class="d-block w-100 imgCarrousel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Cuotas sin interes</h2>
+            <p>Con todos los medios de pago</p>
+          </div>
+        </div>
+        <div class="carousel-item filler">
+          <img src="products/coleccion_verano/20off.png" class="d-block w-100 imgCarrousel" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>20% OFF</h2>
+            <p>Abonando en efectivo</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 </section>
 
 <!--sección de productos recomendados-->

@@ -1,0 +1,139 @@
+
+/*---Estilo de Header---*/
+.principio {
+    display: flex;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+   
+}
+
+
+.sela{
+    background-color: #c9c6a8; 
+    width: 100%; 
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+}
+.selah {
+    color: #f5efe9;
+    font-family: "'Tenor Sans', sans-serif";
+    font-size: 5rem;
+    font-weight: lighter;
+     
+}
+.deco{
+    color: #FFE3C7;
+    font-weight: normal;
+    font-family: "dementor";
+}
+
+/*estilo nav*/
+
+    
+
+.navegables {
+    color: silver;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "'Tenor Sans', sans-serif";
+    letter-spacing: 2px;
+       
+}
+
+.navbar{
+    height: 4rem;
+   
+}
+
+
+/*flex*/
+
+.navegables {
+
+        display: flex;
+        flex-wrap: row;
+        justify-content: space-evenly;
+
+}
+/*color texto del nav*/
+.menu a  {
+    text-decoration: none;
+    color: #f5efe9;
+    
+}
+
+ul {
+    list-style: none;
+    
+}
+/*Navegable*/
+.nav_logo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+   
+}
+.navegable{
+    background-color: #c9c6a8;
+    
+}
+
+/*---sub menu---*/
+.sub {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+    background-color:#E88867;
+    
+}
+
+
+/*---Estilo de footer---*/
+.final{
+    background-color:  #c9c6a8;
+    width: 100%;
+    height: 8rem;
+    margin-top: 20px;
+    
+}
+
+.piePagina{
+    padding-top: 2rem;
+}
+
+
+.piaPagina__link{
+    text-align: center;
+    
+    
+}
+
+.fin{
+    width: 20px;
+    height: 20px;
+}
+
+.piePagina__link{
+    color: white;
+    font-family: "proximaNova";
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* flex footer*/
+.piePagina{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}

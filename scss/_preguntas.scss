@@ -1,0 +1,28 @@
+/*---Estilo texto preguntas frecuentes---*/
+.pregunta {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+    
+    background-image: linear-gradient(#FFE3C7,white);
+    border-radius: 6px;
+    
+}
+.respuesta {
+    font-family: "proximaNova";
+    font-weight: normal;
+    
+}
+
+.metodoPago {
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 900;
+    
+}
+
+.preguntas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+

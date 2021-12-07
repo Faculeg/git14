@@ -1,0 +1,46 @@
+/*---estilo de productos---*/
+
+.product {
+    color: grey;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #FFE3C7;
+}
+
+.imgPro {
+    height: 200px;
+    width: 200px;
+    
+}
+/*Grid productos*/
+.tabl{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.grid-areas {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "cabeza cabeza"            /*fila UNO*/
+    "menu menu"              /*fila DOS*/
+    "lateral venta"     /*fila Tres*/
+    "pie pie"               /*fila 4*/
+    ;
+}
+
+.prin{
+    grid-area: cabeza;
+}
+.nave{
+    grid-area: menu;
+}
+aside {
+    grid-area: lateral;
+}
+.tabla{
+    grid-area: venta;
+}
+.foot{
+    grid-area: pie;
+}

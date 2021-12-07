@@ -1,0 +1,23 @@
+/*animaciones*/
+.imgPro{
+    transition: all 1s;
+
+}
+.imgPro:hover{
+    transform: scale(1.20);
+}
+
+
+.selah {
+    animation-name: texto;
+    animation-duration: 2s;
+}
+
+@keyframes texto{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -13,27 +13,24 @@
 .principio {
     display: flex;
     width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
    
 }
 
-.logo{
-    height: 208px;
-    width: 30%;
-    background-color: #c9c6a8;
-   
-}
+
 .sela{
     background-color: #c9c6a8; 
-    width: 70%; 
+    width: 100%; 
+    height: 8rem;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 .selah {
     color: #f5efe9;
     font-family: "'Tenor Sans', sans-serif";
-    font-size: 87px;
+    font-size: 5rem;
     font-weight: lighter;
-    margin-top: 0px;
      
 }
 .deco{
@@ -43,10 +40,9 @@
 }
 
 /*estilo nav*/
-.navegable {
-    margin-right: 40px;
-    margin-left: 40px;
-}
+
+    
+
 .navegables {
     color: silver;
     text-decoration: none;
@@ -54,15 +50,15 @@
     font-weight: lighter;
     font-family: "'Tenor Sans', sans-serif";
     letter-spacing: 2px;
-    border: 2px solid;
-    border-left: none;
-    border-right: none;
-    border-radius: 8px;
-    background-color: #E88867;
-    margin-top: 0px;
+       
 }
 
- 
+.navbar{
+    height: 4rem;
+   
+}
+
+
 /*flex*/
 
 .navegables {
@@ -83,7 +79,21 @@ ul {
     list-style: none;
     
 }
+/*Navegable*/
+.nav_logo{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+   
+}
+.navegable{
+    background-color: #c9c6a8;
+    
+}
 
+
+
+/*destacado*/
 .destacados{
     margin-top: 20px;
     margin-left: 40px;
@@ -122,8 +132,9 @@ ul li:hover ul{
 /*---estilo de nosotros---*/
 
 .presentacion {
-        margin-left: 40px;
-        margin-right: 40px;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         text-align: center;
         font-size:18px; 
         font-family: 'Tenor Sans', sans-serif;
@@ -140,6 +151,35 @@ ul li:hover ul{
         padding-bottom: 2rem;
 }
 
+.contain{
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+.first_descrption{
+    display: flex;
+}
+.subTexto{
+    width: 40%;
+    font-family: 'Tenor Sans', sans-serif;
+    text-align: center;
+    font-size:18px; 
+    font-weight: lighter;
+    font-style: italic;
+    border-left: 1px solid #979784;
+    border-right: 1px solid #979784;;
+    border-radius: 8px;
+
+    
+    margin-top: 2rem;
+}
+ .subTexto_img{
+     width: 40%;
+ }
+ 
+ img{
+     max-width: 100%;
+     display: block;
+ }
 /*---estilo de productos---*/
 
 .product {
@@ -192,13 +232,14 @@ aside {
     font-family: 'Tenor Sans', sans-serif;
     font-weight: bold;
     
-    background-image: linear-gradient(#FFBFAB,white);
+    background-image: linear-gradient(#FFE3C7,white);
     border-radius: 6px;
     
 }
 .respuesta {
     font-family: "proximaNova";
     font-weight: normal;
+    
 }
 
 .metodoPago {
@@ -208,8 +249,10 @@ aside {
 }
 
 .preguntas{
-    margin-right: 50px;
-    margin-left: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
 }
 
 
@@ -266,15 +309,19 @@ margin: 10px;
 
 
 /*---Estilo de footer---*/
+.final{
+    background-color:  #c9c6a8;
+    width: 100%;
+    height: 8rem;
+    margin-top: 20px;
+    
+}
 
 .piePagina{
-    background-color:  #c9c6a8;
-    width: 90%;
-    margin-inline: auto;
-    margin-top: 20px;
-    height: 100px;
-      
+    padding-top: 2rem;
 }
+
+
 .piaPagina__link{
     text-align: center;
     
